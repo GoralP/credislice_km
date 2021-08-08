@@ -1,0 +1,1459 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap");
+
+.App {
+  text-align: center;
+}
+
+body {
+  font-family: "Roboto Condensed", sans-serif !important;
+}
+
+.pt-10 {
+  padding-top: 2rem;
+}
+
+.pt-20 {
+  padding-top: 2rem;
+}
+
+.ptb-10 {
+  padding: 2rem 0;
+}
+
+.datepicker-input {
+  position: relative;
+  /* left: 0;
+  top: 0; */
+
+  /* opacity: 0; */
+  cursor: pointer;
+
+  border: none;
+  /* border-bottom: 1px solid rgb(212, 210, 210); */
+  width: 100%;
+  border-radius: 5px;
+  padding: 0.5rem;
+  background-color: rgb(237, 242, 245) !important;
+}
+.datepicker-input::-webkit-calendar-picker-indicator {
+  position: absolute;
+  /* left: 0;
+  top: 0; */
+  opacity: 0;
+  width: 100%;
+  height: 100%;
+  /* margin: 0;
+  padding: 0; */
+  cursor: pointer;
+}
+
+::placeholder {
+  font-size: 1rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.container-fluid {
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+}
+
+.month-selector {
+  width: 100% !important;
+}
+
+input.textField {
+  border: none !important;
+
+  max-width: 100% !important;
+  border-radius: 5px !important;
+  padding: 10px !important;
+  background-color: rgb(237, 242, 245) !important;
+}
+
+input.react-datepicker-ignore-onclickoutside {
+  border: none !important;
+
+  width: 100% !important;
+  border-radius: 5px !important;
+
+  background-color: rgb(237, 242, 245) !important;
+}
+
+.date-selector {
+  border: none !important;
+
+  width: 100% !important;
+  border-radius: 5px !important;
+
+  background-color: rgb(237, 242, 245) !important;
+}
+
+.react-datepicker-wrapper {
+  display: inherit;
+  padding: 0;
+  border: none !important;
+  width: 100%;
+}
+
+.react-datepicker__input-container {
+  border: none !important;
+
+  width: 100% !important;
+  border-radius: 5px !important;
+  padding: 10px !important;
+  background-color: rgb(237, 242, 245) !important;
+}
+
+.header-block {
+  background-color: rgb(112, 148, 12);
+  padding: 1rem;
+}
+
+.logo {
+  font-size: 2.3rem;
+  color: white;
+  font-weight: 600;
+}
+
+.skills-can-get {
+  font-size: 3.5rem;
+  color: white;
+  text-align: center;
+  padding: 0 7rem;
+  font-weight: bold;
+  margin-top: 1rem;
+  line-height: 4.3rem;
+}
+
+.we-a-group {
+  text-align: center;
+  color: white;
+  font-size: 1.6rem;
+  padding: 0.2rem 19rem 0.2rem 19rem;
+}
+
+.funds {
+  padding: 2rem 1rem;
+}
+
+.careers-skills {
+  font-weight: bold;
+  color: #493b45;
+  font-size: 2.5rem;
+}
+
+.up-to {
+  color: #7d6576;
+  font-weight: 400;
+  font-size: 1.5rem;
+}
+
+.icon {
+  width: 25px;
+  height: 25px;
+  padding-top: 6px;
+}
+
+.icon-outline {
+  border-radius: 50%;
+  text-align: center;
+  width: 35px;
+  height: 35px;
+  display: inline-block;
+  flex: 0 0 auto;
+  background-color: rgb(204, 228, 252);
+}
+
+.skill-list {
+  font-size: 1.25rem;
+  font-weight: 600;
+  padding-left: 1rem;
+}
+
+.money-transfer {
+  height: 100%;
+  width: 100%;
+}
+
+.simple-product {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.always-know {
+  color: #7d6576;
+  font-size: 1.5rem;
+}
+
+.product-box {
+  border: 1px solid rgb(247, 246, 246);
+  border-radius: 8px;
+  padding: 1rem;
+  background-color: white;
+  height: 380px;
+}
+
+.signup-box {
+  padding-right: 5px !important;
+  padding-left: 5px !important;
+}
+
+.student-loan {
+  font-size: 2rem;
+  font-weight: 600;
+  text-align: center;
+  line-height: 2.5rem;
+}
+
+.no-visa {
+  text-align: center;
+  color: #7d6576;
+  height: 3rem;
+}
+
+.loan-list {
+  padding-top: 3rem;
+}
+
+.cash-loan-list {
+  padding-top: 3rem;
+}
+
+.loan-list-check {
+  font-weight: 500;
+  font-weight: 500;
+  color: rgb(88, 88, 88);
+  font-size: 1.1rem;
+  margin-left: 10px;
+}
+
+.sign-up-button {
+  background-color: white !important;
+  color: black !important;
+  width: 100%;
+  margin-top: 2rem;
+  border-radius: 20px !important;
+  padding: 0.5rem 0 !important;
+  font-weight: 500 !important;
+}
+
+.who-we-are-block {
+  background-color: rgb(78, 61, 7);
+  padding: 3rem 0;
+}
+
+.who-we-are {
+  text-align: center;
+  color: white;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.simple-box {
+  background-color: rgb(246, 244, 244);
+}
+
+.we-are-list {
+  display: flex;
+}
+
+.immigrant-graduates {
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.profile-icon {
+  height: 100px;
+  width: 100px;
+}
+
+.an-international {
+  font-size: 1.4rem;
+  color: white;
+  padding-top: 0.8rem;
+}
+
+.an-individual {
+  font-size: 1.2rem;
+  color: white;
+  padding-top: 0.8rem;
+}
+
+.footer-bg {
+  background-color: rgb(44, 37, 42);
+  padding: 1rem 0;
+}
+
+.footer-content {
+  color: white;
+}
+
+.social-icon {
+  float: right !important;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.modal-btn {
+  border: none !important;
+  /* border-radius: 1rem !important; */
+
+  display: block;
+  margin: 15px auto !important;
+  /* padding: 13px 45px !important; */
+  width: 100%;
+  font-size: 1.4rem !important;
+  font-weight: 600 !important;
+  cursor: pointer;
+  color: white;
+}
+
+.modal-title {
+  margin-left: 18rem;
+}
+
+.privacy-block {
+  padding: 1rem 1rem;
+}
+
+.Privacy-policy-title {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.privacy-policy-content {
+  font-size: 1.2rem;
+}
+
+/******************************* Apply button *********************/
+
+.apply-btn {
+  margin-top: 45vh;
+  /* left: 40%; */
+  border-radius: 0.5rem !important;
+  /* position: absolute; */
+  padding: 1rem 2rem !important;
+  font-size: 2rem !important;
+  background-color: rgb(0, 119, 181) !important;
+}
+
+/**************************** Linkedin Login page ********************/
+.main-block {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f6f6;
+  background-size: cover;
+}
+
+.form-layout {
+  margin: 0 auto;
+  max-width: 110rem;
+  width: 100%;
+  padding: 13rem 8rem;
+  border-radius: 0.5rem;
+  background-color: #f8fafb;
+  box-shadow: 0 0px 30px rgb(0, 111, 255, 12%);
+}
+
+.login-block {
+  padding: 0 3rem;
+}
+
+.login-title-content {
+  color: #4f5d77;
+  font-size: 18px;
+  padding-bottom: 1.3rem;
+}
+
+.login-image {
+  width: 100%;
+}
+
+.linked-in {
+  font-size: 3rem;
+  color: rgb(63, 50, 122);
+  padding-bottom: 1rem;
+}
+
+.login-form-box {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 0 0px 30px rgb(0, 111, 255, 12%);
+}
+
+.form-grp {
+  padding: 1rem 2rem;
+}
+
+.main-block .form-group {
+  margin-bottom: 0rem !important;
+}
+
+.label-name {
+  margin-bottom: 0rem !important;
+}
+
+.form-grp-section {
+  border-bottom: 2px solid rgb(233, 228, 228);
+}
+
+.user-icon {
+  color: gray;
+  margin-top: 0.5rem;
+}
+
+.login-input {
+  border: none;
+  /* border-bottom: 1px solid rgb(212, 210, 210); */
+  width: 100%;
+  border-radius: 5px;
+  padding: 0.5rem;
+  background-color: rgb(237, 242, 245);
+}
+
+.formgroup-content {
+  padding-left: 2rem !important;
+}
+
+.sign-in-btn {
+  border-radius: 0.5rem !important;
+  margin-top: 2rem;
+  background-color: rgb(63, 50, 122) !important;
+  border: none !important;
+  padding: 0.8rem 4rem !important;
+  font-size: 2rem !important;
+  font-weight: bold !important;
+  color: white;
+}
+
+/*********************************** Account Setup *****************************/
+
+.account-bg {
+  background-color: rgb(248, 250, 251);
+  min-height: 100vh;
+  background-size: cover;
+}
+
+.skill-input {
+  border: none;
+  width: 150px;
+  border-radius: 5px;
+  padding: 0.5rem;
+  margin-right: 1rem;
+  background-color: rgb(237, 242, 245);
+}
+
+.account-container {
+  padding: 4rem 0;
+}
+
+.account-setup-heading {
+  text-align: center;
+  font-size: 2.5rem;
+  color: #3f327a;
+}
+
+.account-setup-title {
+  font-size: 3rem;
+  font-weight: 500;
+  text-align: center;
+  margin-top: 1.5rem;
+}
+
+.account-icon-outline {
+  border-radius: 50%;
+  border: 1px solid gray;
+  text-align: center;
+  width: 45px;
+  height: 45px;
+  display: inline-block;
+  flex: 0 0 auto;
+}
+
+.account-icon {
+  color: gray;
+  height: 35px;
+  width: 35px;
+  padding-top: 6px;
+}
+
+/* .MuiTab-wrapper {
+  display: inline-block !important;
+} */
+.MuiAppBar-colorPrimary {
+  font-size: 1.2rem !important;
+  background-color: rgb(248, 250, 251) !important;
+}
+.MuiTab-textColorPrimary.Mui-selected {
+  color: #3f327a !important;
+}
+
+.appbar-border {
+  border-bottom: 1px solid gray;
+}
+
+.account-form-box {
+  background-color: white;
+  border-radius: 10px;
+
+  box-shadow: 0 0px 10px rgb(216, 214, 228, 12%);
+}
+
+.form-field {
+  border-bottom: 2px solid #dbdada;
+  padding: 1rem 2rem;
+}
+
+.last-form-field {
+  padding: 1rem 2rem;
+}
+
+.form-field-label {
+  color: #4f5d77;
+  font-size: 1.2rem;
+}
+
+.form-field-title {
+  color: #4f5d77;
+  font-size: 1.3rem;
+}
+
+.form-group {
+  margin-bottom: 0 !important;
+}
+
+.account-placehoder::placeholder {
+  color: #3f327a;
+  padding: 0;
+  font-size: 1.1rem !important;
+}
+
+.date-picker-input {
+  border: none;
+}
+
+.skill-input {
+  padding-right: 2rem;
+}
+
+input.larger {
+  width: 20px;
+  height: 20px;
+}
+
+.MuiTab-root {
+  font-size: 1.4rem !important;
+  text-transform: capitalize !important;
+}
+
+.icon-btn {
+  background-color: white !important;
+  height: 45px;
+  width: 45px;
+  border-radius: 50% !important;
+  padding: 0 !important;
+  border: 1px solid red;
+}
+
+.skill-btn {
+  background-color: white !important;
+  border-radius: 13px !important;
+  margin-right: 10px;
+  color: #3f327a !important;
+  padding: 1px 20px !important;
+  font-size: 1.1rem !important;
+  font-weight: 500 !important;
+}
+
+.skill-btn:focus {
+  background-color: rgb(214, 212, 212) !important;
+  border-radius: 13px !important;
+  margin-right: 10px;
+  color: #3f327a !important;
+  padding: 1px 20px !important;
+  font-size: 1.1rem !important;
+  font-weight: 500 !important;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 374px) {
+  .skills-can-get {
+    padding: 0;
+    font-size: 1.7rem;
+    line-height: 2.2rem;
+    margin-top: 0.8rem;
+  }
+
+  .we-a-group {
+    padding: 0;
+    font-size: 0.9rem;
+    margin-top: 0.2rem;
+    padding-bottom: 0rem;
+  }
+  .careers-skills {
+    font-size: 1.8rem;
+  }
+  .up-to {
+    font-size: 1.3rem;
+    padding-top: 0.2rem;
+  }
+  .cash-block {
+    margin-top: 1.5rem;
+  }
+  .immigrant-graduates {
+    text-align: left;
+    font-size: 1.3rem;
+  }
+  .social-icon {
+    float: left !important;
+    padding-top: 0.6rem;
+  }
+  .simple-product {
+    font-size: 2rem;
+  }
+  .always-know {
+    font-size: 1.2rem;
+  }
+  .who-we-are {
+    font-size: 2rem;
+  }
+  .logo {
+    font-size: 1.4rem;
+  }
+  .modal-title {
+    margin-left: 2rem;
+  }
+  .Privacy-policy-title {
+    font-size: 1.5rem;
+  }
+
+  .privacy-policy-content {
+    font-size: 0.9rem;
+  }
+
+  .apply-btn {
+    /* top: 45%;
+    left: 12%; */
+    padding: 1rem 1rem !important;
+    font-size: 1.5rem !important;
+  }
+
+  /*******************login form *************************/
+  .form-layout {
+    padding: 1rem 1rem;
+  }
+  .linked-in {
+    font-size: 2.1rem;
+    color: rgb(63, 50, 122);
+    padding: 1rem 0;
+    margin-top: 1.5rem;
+  }
+  .login-block {
+    padding: 0 0rem;
+  }
+  .formgroup-content {
+    padding-left: 2rem !important;
+  }
+
+  .sign-in-btn {
+    padding: 0.5rem 2.5rem !important;
+    font-size: 1.5rem !important;
+    margin-top: 1rem;
+  }
+  .login-title-content {
+    font-size: 16px;
+  }
+
+  /****************************************** Account setup ************************/
+  .MuiBox-root-8 {
+    padding: 24px 0px !important;
+  }
+
+  .MuiBox-root-14 {
+    padding: 24px 0px !important;
+  }
+
+  .MuiBox-root-16 {
+    padding: 24px 0px !important;
+  }
+
+  .MuiBox-root .tabpanel-responsive {
+    padding: 24px 0px !important;
+  }
+
+  .responsive-date {
+    margin-top: 1rem;
+  }
+
+  .account-setup-title {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+
+  .container.tabpanel-responsive {
+    padding: 0;
+  }
+  .tabpanel-responsive .MuiBox-root {
+    padding: 24px 0;
+  }
+  .tabpanel-responsive .form-field {
+    padding: 15px 10px;
+  }
+  .tabpanel-responsive .last-form-field {
+    padding: 15px 10px;
+  }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+  .container.tabpanel-responsive {
+    padding: 0;
+  }
+  .tabpanel-responsive .MuiBox-root {
+    padding: 24px 0;
+  }
+  .tabpanel-responsive .form-field {
+    padding: 15px 10px;
+  }
+
+  .tabpanel-responsive .last-form-field {
+    padding: 15px 10px;
+  }
+  .skills-can-get {
+    padding: 0 0.3rem;
+    font-size: 2rem;
+    line-height: 2.2rem;
+    margin-top: 0.8rem;
+  }
+  .modal-title {
+    margin-left: 3rem;
+  }
+
+  .product-box {
+    height: 400px;
+  }
+
+  .we-a-group {
+    padding: 0;
+    font-size: 1.1rem;
+    padding: 0.7rem 0.6rem 0rem 0.6rem;
+  }
+  .careers-skills {
+    font-size: 1.8rem;
+  }
+  .up-to {
+    font-size: 1.3rem;
+    padding-top: 0.2rem;
+  }
+  .cash-block {
+    margin-top: 1.5rem;
+  }
+  .immigrant-graduates {
+    text-align: left;
+    font-size: 1.3rem;
+  }
+  .social-icon {
+    float: left !important;
+    padding-top: 0.6rem;
+  }
+  .simple-product {
+    font-size: 2rem;
+  }
+  .always-know {
+    font-size: 1.2rem;
+  }
+  .who-we-are {
+    font-size: 2rem;
+  }
+  .logo {
+    font-size: 1.4rem;
+  }
+  .Privacy-policy-title {
+    font-size: 1.5rem;
+  }
+
+  .privacy-policy-content {
+    font-size: 0.9rem;
+  }
+  .student-loan {
+    font-size: 2.1rem;
+  }
+
+  .apply-btn {
+    /* top: 45%;
+    left: 18%; */
+    padding: 1rem 1rem !important;
+    font-size: 1.5rem !important;
+  }
+  /*******************login form *************************/
+  .form-layout {
+    padding: 1rem 1rem;
+  }
+  .linked-in {
+    font-size: 2.1rem;
+    color: rgb(63, 50, 122);
+    padding: 1rem 0;
+    margin-top: 1.5rem;
+  }
+  .login-block {
+    padding: 0 0rem;
+  }
+  .formgroup-content {
+    padding-left: 2rem !important;
+  }
+
+  .sign-in-btn {
+    padding: 0.5rem 2.5rem !important;
+    font-size: 1.5rem !important;
+    margin-top: 1rem;
+  }
+  .login-title-content {
+    font-size: 16px;
+  }
+  /****************************************** Account setup ************************/
+  .MuiBox-root-8 {
+    padding: 24px 0px !important;
+  }
+
+  .MuiBox-root-14 {
+    padding: 24px 0px !important;
+  }
+
+  .MuiBox-root-16 {
+    padding: 24px 0px !important;
+  }
+
+  .responsive-date {
+    margin-top: 1rem;
+  }
+
+  .account-setup-title {
+    font-size: 2.8rem;
+    line-height: 3rem;
+  }
+  .account-setup-title {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+}
+
+@media only screen and (min-width: 425px) and (max-width: 767px) {
+  .skills-can-get {
+    padding: 0 0.9rem;
+    font-size: 2.2rem;
+    line-height: 2.5rem;
+    margin-top: 0.8rem;
+  }
+
+  .product-box {
+    height: 370px;
+  }
+
+  .modal-title {
+    margin-left: 4.5rem;
+  }
+
+  .we-a-group {
+    padding: 0;
+    font-size: 1.2rem;
+
+    padding: 0.5rem 1.3rem 0rem 1.3rem;
+  }
+  .careers-skills {
+    font-size: 1.8rem;
+  }
+  .up-to {
+    font-size: 1.3rem;
+    padding-top: 0.2rem;
+  }
+  .cash-block {
+    margin-top: 1.5rem;
+  }
+  .immigrant-graduates {
+    text-align: left;
+    font-size: 1.3rem;
+  }
+  .social-icon {
+    float: left !important;
+    padding-top: 0.6rem;
+  }
+  .simple-product {
+    font-size: 2rem;
+  }
+  .always-know {
+    font-size: 1.2rem;
+  }
+  .who-we-are {
+    font-size: 2rem;
+  }
+  .logo {
+    font-size: 1.5rem;
+  }
+  .Privacy-policy-title {
+    font-size: 1.5rem;
+  }
+
+  .privacy-policy-content {
+    font-size: 0.9rem;
+  }
+
+  .apply-btn {
+    /* top: 45%;
+    left: 20%; */
+    padding: 1rem 1rem !important;
+    font-size: 1.5rem !important;
+  }
+  /*******************login form *************************/
+  .form-layout {
+    padding: 1rem 1rem;
+  }
+  .linked-in {
+    font-size: 2.1rem;
+    color: rgb(63, 50, 122);
+    padding: 1rem 0;
+    margin-top: 1.5rem;
+  }
+  .login-block {
+    padding: 0 0rem;
+  }
+  .formgroup-content {
+    padding-left: 2rem !important;
+  }
+
+  .sign-in-btn {
+    padding: 0.5rem 2.5rem !important;
+    font-size: 1.5rem !important;
+    margin-top: 1rem;
+  }
+  .login-title-content {
+    font-size: 16px;
+  }
+
+  /****************************************** Account setup ************************/
+  .MuiBox-root-8 {
+    padding: 24px 0px !important;
+  }
+
+  .responsive-date {
+    margin-top: 1rem;
+  }
+
+  .MuiTab-root {
+    font-size: 1rem !important;
+  }
+
+  .form-field-label {
+    font-size: 1rem;
+  }
+
+  .account-placehoder::placeholder {
+    font-size: 1rem !important;
+  }
+
+  .account-icon-outline {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    flex: 0 0 auto;
+  }
+
+  .account-icon {
+    height: 25px;
+    width: 25px;
+    padding-top: 2px;
+  }
+
+  .MuiBox-root-14 {
+    padding: 24px 0px !important;
+  }
+
+  .MuiBox-root-16 {
+    padding: 24px 0px !important;
+  }
+
+  .account-setup-title {
+    font-size: 2.8rem;
+    line-height: 3rem;
+  }
+
+  .container.tabpanel-responsive {
+    padding: 0;
+  }
+  .tabpanel-responsive .MuiBox-root {
+    padding: 24px 0;
+  }
+  .tabpanel-responsive .form-field {
+    padding: 15px 15px;
+  }
+
+  .tabpanel-responsive .last-form-field {
+    padding: 15px 10px;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .skills-can-get {
+    padding: 0 2rem;
+    font-size: 3rem;
+    line-height: 3.5rem;
+    margin-top: 0.8rem;
+  }
+
+  .modal-title {
+    margin-left: 9rem;
+  }
+
+  .we-a-group {
+    padding: 0;
+    font-size: 1.4rem;
+    margin-top: 0.5rem;
+    padding: 0rem 7.6rem 0rem 7.6rem;
+  }
+  .careers-skills {
+    font-size: 1.8rem;
+  }
+  .up-to {
+    font-size: 1.3rem;
+    padding-top: 0.2rem;
+  }
+
+  .immigrant-graduates {
+    text-align: left;
+    font-size: 1.3rem;
+  }
+  .social-icon {
+    float: right !important;
+    padding-top: 0.6rem;
+  }
+  .simple-product {
+    font-size: 2rem;
+  }
+  .always-know {
+    font-size: 1.2rem;
+  }
+  .who-we-are {
+    font-size: 2rem;
+  }
+  .logo {
+    font-size: 1.7rem;
+  }
+  .student-loan {
+    font-size: 1.3rem;
+    padding-bottom: 0.5rem;
+
+    line-height: 1.5rem;
+  }
+  .no-visa {
+    font-size: 0.8rem;
+  }
+  .loan-list-check {
+    font-size: 0.9rem;
+  }
+
+  .fa-check-icon {
+    font-size: 1.5rem;
+  }
+  .Privacy-policy-title {
+    font-size: 1.5rem;
+  }
+
+  .privacy-policy-content {
+    font-size: 0.9rem;
+  }
+
+  .apply-btn {
+    /* top: 45%;
+    left: 35%; */
+    padding: 1rem 1rem !important;
+    font-size: 1.5rem !important;
+  }
+
+  /*******************login form *************************/
+  .form-layout {
+    padding: 1rem 1rem;
+    width: 90%;
+  }
+  .linked-in {
+    font-size: 1.8rem;
+    color: rgb(63, 50, 122);
+    padding: 0rem 0;
+    margin-top: 0rem;
+  }
+
+  .vector-logo {
+    height: 30px;
+    width: 30px;
+  }
+  .login-block {
+    padding: 0 0rem;
+  }
+  .formgroup-content {
+    padding-left: 2rem !important;
+  }
+
+  .sign-in-btn {
+    padding: 0.2rem 2rem !important;
+    font-size: 1.2rem !important;
+    margin-top: 1rem;
+  }
+  .login-title-content {
+    font-size: 14px;
+
+    padding-bottom: 0.5rem;
+  }
+  .form-grp {
+    padding: 0.5rem 1rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1439px) {
+  .product-box {
+    height: 380px;
+  }
+  .Privacy-policy-title {
+    font-size: 1.5rem;
+  }
+
+  .privacy-policy-content {
+    font-size: 0.9rem;
+  }
+
+  .loan-list-check {
+    font-size: 1rem;
+  }
+
+  .apply-btn {
+    /* top: 45%;
+    left: 37%; */
+    padding: 1rem 1rem !important;
+    font-size: 1.5rem !important;
+  }
+  /*******************login form *************************/
+  .form-layout {
+    padding: 1rem 1rem;
+    width: 90%;
+  }
+  .linked-in {
+    font-size: 1.8rem;
+    color: rgb(63, 50, 122);
+    padding: 0rem 0;
+    margin-top: 0rem;
+  }
+
+  .vector-logo {
+    height: 30px;
+    width: 30px;
+  }
+  .login-block {
+    padding: 0 0rem;
+  }
+  .formgroup-content {
+    padding-left: 2rem !important;
+  }
+
+  .sign-in-btn {
+    padding: 0.2rem 2rem !important;
+    font-size: 1.2rem !important;
+    margin-top: 1rem;
+  }
+  .login-title-content {
+    font-size: 14px;
+
+    padding-bottom: 0.5rem;
+  }
+  .form-grp {
+    padding: 0.5rem 1rem;
+  }
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 2500px) {
+  .form-layout {
+    padding: 1rem 1rem;
+    width: 90%;
+  }
+}
+.displaynone {
+  display: none;
+}
+
+/* Landing Page */
+
+.mr-0 {
+  margin: 0;
+}
+.que-your-mind-bg {
+  background-color: #01cdce;
+  padding: 2rem 0;
+}
+
+.que-your-mind {
+  text-align: center;
+  color: rgb(48, 57, 82);
+  font-weight: bold;
+  font-size: 35px;
+}
+
+.que-list-block {
+  margin-top: 2rem;
+}
+
+.que-list {
+  background-color: white;
+  border-radius: 50px;
+  text-align: center;
+  padding: 2rem 0;
+}
+
+.que-list-icon {
+  font-size: 45px;
+  margin-bottom: 1rem;
+  color: #01cdce;
+}
+
+.que-list-inner {
+  background-color: white;
+  margin: 0rem 2.9rem;
+  border-radius: 10px;
+  font-size: 28px;
+  padding: 1rem 1rem;
+  line-height: 2rem;
+  height: 92px;
+  text-align: center;
+  border: 1px solid #01cdce;
+  font-weight: 500;
+  box-shadow: 6px 9px 9px 0px rgba(174, 166, 166, 0.4);
+  /* box-shadow: -6px 7px 21px 0px rgba(1, 205, 206, 0.3); */
+  /* box-shadow: 1px 9px 22px -4px rgba(156, 145, 145, 0.66); */
+}
+
+.study-durection-section {
+  background-color: #eff0f2;
+  padding: 3rem 0;
+}
+
+.study-duration-screenshot {
+  margin-top: 2rem;
+}
+.slick-slide img {
+  display: block;
+  margin: 0 auto;
+  height: 400px;
+  max-width: 100%;
+  /* width: 250px; */
+}
+
+.screen-shot-details-block {
+  padding: 3rem 3rem !important;
+  text-align: center;
+}
+
+.screenshot-detail {
+  background-color: #01cdce;
+  padding: 1rem;
+}
+
+.screenshot-icon {
+  font-size: 30px;
+  background-color: white;
+  border-radius: 50%;
+  padding: 23px;
+  color: #01cdce;
+  width: 100px;
+  height: 100px;
+}
+
+.open-bank-account {
+  background-color: white;
+  padding: 1rem;
+  text-align: left;
+  margin: 1rem 1.5rem;
+  border-radius: 10px;
+}
+
+/* .bank-account-title {
+  font-size: 1.5rem;
+  font-weight: 500;
+  height: 80px;
+} */
+
+.bank-account-title {
+  font-size: 1.8rem;
+  font-weight: 500;
+  height: 53px;
+  line-height: 39px;
+}
+
+.open-bank-details {
+  /* padding: 1.2rem 0; */
+  height: 95px;
+  /* border: 1px solid gray; */
+}
+.sc-bg {
+  background-color: white;
+}
+
+.slick-dots li button {
+  display: none !important;
+}
+
+.join-section {
+  background-color: #eff0f2;
+  padding: 2rem 0;
+}
+
+.join-service {
+  background-color: white;
+  border-radius: 8px;
+  padding: 1rem;
+  /* box-shadow: 0 0px 30px rgb(0, 111, 255, 12%); */
+  margin: 0 3rem;
+  box-shadow: 6px 9px 9px 0px rgba(174, 166, 166, 0.1);
+}
+
+.service-form {
+  margin: 1rem 3rem 0rem 3rem;
+}
+.service-email {
+  width: 100%;
+  background-color: #01cdce;
+  border: none;
+  border-radius: 8px;
+  padding: 1rem;
+  color: white;
+  box-shadow: 6px 9px 9px 0px rgba(174, 166, 166, 0.3);
+}
+
+.join-section .thousand-join {
+  align-items: center;
+}
+
+.scroll-button {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background: none !important;
+  border: none !important;
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.join-image {
+  height: 500px;
+  max-width: 100%;
+}
+
+.slick-prev,
+.slick-next {
+  display: none !important;
+}
+
+@media only screen and (max-width: 1600px) {
+  .screen-shot-details-block {
+    padding: 1rem 0.3rem !important;
+  }
+  .bank-account-title {
+    height: 80px;
+    line-height: 30px;
+  }
+  .open-bank-details {
+    height: 100px;
+  }
+}
+
+@media only screen and (max-width: 1439px) {
+  .que-list-inner {
+    margin: 0rem 0.3rem;
+  }
+  .screen-shot-details-block {
+    padding: 1rem 0.3rem !important;
+  }
+  .open-bank-details {
+    height: 120px;
+  }
+  .que-list-inner {
+    margin: 0rem 1.8rem !important;
+  }
+  .open-bank-account {
+    background-color: white;
+    padding: 1rem;
+    text-align: left;
+    margin: 0.5rem 0.8rem;
+    border-radius: 10px;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+  .que-list-inner {
+    margin: 0rem 1.8rem;
+    height: 75px;
+  }
+  .col-sm-3.screen-shot-details-block {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+  .screen-shot-details-block {
+    padding: 1rem 1rem !important;
+  }
+  .open-bank-details {
+    height: 92px;
+  }
+
+  .bank-account-title {
+    height: 60px;
+    font-size: 25px;
+    line-height: 1.6rem;
+  }
+
+  .join-service {
+    margin: 0 1rem;
+  }
+  .service-form {
+    margin: 1rem 1rem 0rem 1rem;
+  }
+
+  .que-list-block .col-sm-3 {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+
+  .que-list {
+    margin-top: 1rem;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .que-list {
+    margin-top: 0.8rem;
+  }
+
+  .que-list-inner {
+    margin: 0rem 3rem !important;
+  }
+  .screen-shot-details-block {
+    padding: 1rem 4rem !important;
+  }
+  .join-service {
+    margin: 0 0.4rem;
+  }
+  .service-form {
+    margin: 1rem 0.4rem 0rem 0.4rem;
+  }
+
+  .col-sm-3.screen-shot-details-block {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+  .que-list-block .col-sm-3 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
